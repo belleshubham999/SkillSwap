@@ -1,0 +1,17 @@
+project_id = "skillswap"
+
+[api]
+enabled = true
+port = 54321
+
+[db]
+port = 54322
+
+[functions.send-email]
+verify_jwt = true
+
+[functions.notify-event]
+verify_jwt = true
+
+[functions.job-worker]
+verify_jwt = true
