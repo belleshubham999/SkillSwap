@@ -1,0 +1,2 @@
+import { Card } from '@/components/ui/card';
+export default function AdminPage(){return <div className="grid gap-4 md:grid-cols-2"><Card><h2 className="font-semibold">Moderation</h2><p className="text-sm">Manage users, projects and flagged reviews.</p></Card><Card><h2 className="font-semibold">Platform Metrics</h2><p className="text-sm">Track signups, posts, applications and matches.</p></Card></div>}
